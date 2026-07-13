@@ -1,149 +1,237 @@
-# Data Structures & Algorithms in C++
+# 🚀 DSA in C++ | Software Engineering Interview Preparation
 
-A comprehensive collection of **Data Structures and Algorithms** implemented in **C++**, created as part of my Software Development Engineer (SDE) interview preparation.
+<p align="center">
 
-This repository showcases optimized solutions, clean coding practices, and consistent progress while solving interview-focused problems commonly asked by leading product-based companies.
+![C++](https://img.shields.io/badge/C++-17-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Repository](https://img.shields.io/badge/Repository-DSA-green)
+
+</p>
 
 ---
 
-## About
+# 📖 About
 
-This repository documents my journey of mastering **Data Structures & Algorithms** using **C++**.
+This repository contains my solutions to **Data Structures and Algorithms** problems implemented in **C++** as part of my Software Engineering interview preparation.
 
-My objective is to strengthen problem-solving skills, improve algorithmic thinking, and build a solid foundation in Computer Science for Software Engineering interviews.
+The repository is organized topic-wise and is continuously updated as I solve new problems on **LeetCode**.
 
-Each solution is written with a focus on:
+The primary objective is to strengthen problem-solving skills, improve algorithmic thinking, and build a solid foundation in Computer Science for Software Engineering interviews.
 
-- Clean and readable code
+---
+
+# 🎯 Repository Purpose
+
+This repository serves as my personal DSA notebook and interview preparation resource.
+
+Each solution is written with emphasis on:
+
+- Clean and readable C++ code
 - Optimized algorithms
-- Standard C++ (STL)
+- Standard Template Library (STL)
 - Time Complexity Analysis
 - Space Complexity Analysis
-- Interview-oriented problem solving
+- Interview-oriented coding practices
 
 ---
 
-# Topics Covered
+# 🛠 Language & Tools
+
+- C++
+- Standard Template Library (STL)
+- Git
+- GitHub
+- LeetCode
+
+---
+
+# 📂 Repository Structure
+
+```text
+dsa-cpp
+│
+├── Arrays
+├── Strings
+├── Linked_Lists
+├── Stacks
+├── Queues
+├── Binary_Search
+├── Hashing
+├── Recursion
+├── Backtracking
+├── Trees
+├── Binary_Search_Trees
+├── Heaps
+├── Graphs
+├── Dynamic_Programming
+├── Greedy
+├── Tries
+├── Sliding_Window
+├── Two_Pointers
+├── Bit_Manipulation
+├── Math
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 📚 Topics Covered
 
 - Arrays
-- Binary Search
 - Strings
 - Linked Lists
-- Stack
-- Queue
+- Stacks
+- Queues
+- Binary Search
 - Hashing
 - Recursion
 - Backtracking
 - Trees
 - Binary Search Trees
-- Heap / Priority Queue
-- Greedy Algorithms
+- Heaps / Priority Queue
 - Graphs
 - Dynamic Programming
-- Trie
+- Greedy Algorithms
+- Tries
+- Sliding Window
+- Two Pointers
 - Bit Manipulation
+- Mathematics
 
 ---
 
-# Repository Structure
+# 📝 Solution Format
 
+Each solution follows a consistent format.
+
+```cpp
+/*
+Problem:
+Best Time to Buy and Sell Stock
+
+Platform:
+LeetCode
+
+Difficulty:
+Easy
+
+Approach:
+Greedy
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(1)
+*/
 ```
-📂 Arrays
-📂 Binary_Search
-📂 Strings
-📂 Linked_List
-📂 Stack
-📂 Queue
-📂 Hashing
-📂 Recursion
-📂 Backtracking
-📂 Trees
-📂 Binary_Search_Tree
-📂 Heap
-📂 Graphs
-📂 Dynamic_Programming
-📂 Greedy
-📂 Trie
-📂 Bit_Manipulation
-```
-
----
-
-# Solution Format
 
 Each solution includes:
 
 - Problem Name
+- Difficulty
+- Approach
 - Optimized C++ Solution
 - Time Complexity
 - Space Complexity
-- Clean and Readable Implementation
 
 ---
 
-# Technologies Used
-
-- C++
-- STL (Standard Template Library)
-- Git
-- GitHub
-
----
-
-# Learning Goals
-
-- Master Data Structures & Algorithms
-- Improve Problem Solving
-- Strengthen Competitive Programming Skills
-- Prepare for Software Development Engineer Interviews
-- Write Clean and Optimized C++ Code
-
----
-
-# Progress Tracker
+# 📊 Progress Tracker
 
 | Topic | Status |
-|-------|--------|
+|--------|:------:|
 | Arrays | ⏳ |
-| Binary Search | ⏳ |
 | Strings | ⏳ |
-| Linked List | ⏳ |
-| Stack | ⏳ |
-| Queue | ⏳ |
+| Linked Lists | ⏳ |
+| Stacks | ⏳ |
+| Queues | ⏳ |
+| Binary Search | ⏳ |
+| Hashing | ⏳ |
+| Recursion | ⏳ |
+| Backtracking | ⏳ |
 | Trees | ⏳ |
-| Binary Search Tree | ⏳ |
-| Heap | ⏳ |
+| Binary Search Trees | ⏳ |
+| Heaps | ⏳ |
 | Graphs | ⏳ |
 | Dynamic Programming | ⏳ |
 | Greedy | ⏳ |
-| Trie | ⏳ |
+| Tries | ⏳ |
+| Sliding Window | ⏳ |
+| Two Pointers | ⏳ |
 | Bit Manipulation | ⏳ |
+| Mathematics | ⏳ |
 
 ---
 
-# Coding Principles
+# 💡 Coding Principles
 
 - Write clean and maintainable code.
 - Prefer optimized solutions whenever applicable.
 - Analyze both time and space complexity.
-- Follow standard C++ coding practices.
+- Follow modern C++ best practices.
+- Understand multiple approaches whenever possible.
 - Focus on interview-quality implementations.
 
 ---
 
-# Target
+# 🎯 Learning Goals
 
-This repository is part of my preparation for **Software Development Engineer (SDE)** interviews at leading technology companies.
+- Strengthen problem-solving skills
+- Build a solid understanding of Data Structures & Algorithms
+- Improve algorithmic thinking
+- Master C++ STL
+- Prepare for Software Engineering interviews
+- Maintain consistency through regular practice
 
 ---
 
-## Connect With Me
+# 🚀 Future Improvements
+
+- Add explanations for every solution
+- Add brute-force and optimized approaches
+- Include visual diagrams for selected algorithms
+- Add interview notes
+- Add topic-wise revision sheets
+- Track solved problem count
+- Add edge cases and common interview follow-up questions
+
+---
+
+# 🤝 Contributing
+
+This repository is maintained as a personal interview preparation resource.
+
+Suggestions for improving code quality, readability, or documentation are always welcome.
+
+---
+
+# 👨‍💻 Author
 
 **Bibek Agrahari**
 
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
-- GitHub: https://github.com/YOUR-USERNAME
+B.E. Artificial Intelligence & Machine Learning  
+BMS College of Engineering, Bengaluru
 
 ---
 
-⭐ If you find this repository helpful, consider giving it a star.
+# 🔗 Connect With Me
+
+### GitHub
+
+https://github.com/YOUR_GITHUB_USERNAME
+
+### LinkedIn
+
+https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME
+
+### LeetCode
+
+https://leetcode.com/u/YOUR_LEETCODE_USERNAME/
+
+---
+
+⭐ **If you find this repository useful, consider giving it a star!**
