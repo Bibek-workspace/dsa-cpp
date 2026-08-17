@@ -1,31 +1,21 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-        int n =nums.size();
-        vector<int>ans(n);
-        vector<int>prefix(n,1);
-        vector<int>sufix(n,1);
+        int n = nums.size();
+        vector<int> ans(n, 1);
 
-        //prefix ko value nikalnu xa 
-
-        for(int i =1 ; i<n ;i++){
-            prefix[i] = prefix[i-1] * nums[i-1];
+        int prefix = 1;
+        for (int i = 0; i < n; i++) {
+            ans[i] = prefix;
+            prefix *= nums[i];
         }
 
-        // sufix ko value nikalnu xa 
-
-        for(int i =n-2 ; i>=0 ; i--){
-            sufix[i] = sufix[i+1] * nums[i+1];
-            
-        }
-
-        for(int i=0 ;i<n ;i++){
-            ans[i] = prefix[i]* sufix[i];
+        int suffix = 1;
+        for (int i = n - 1; i >= 0; i--) {
+            ans[i] *= suffix;
+            suffix *= nums[i];
         }
 
         return ans;
-
-
-        
     }
 };
