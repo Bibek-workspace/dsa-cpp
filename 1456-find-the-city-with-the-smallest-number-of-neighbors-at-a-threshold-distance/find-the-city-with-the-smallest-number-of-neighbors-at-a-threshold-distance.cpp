@@ -8,13 +8,12 @@ public:
         for (int i = 0; i < n; i++)
             dist[i][i] = 0;
 
-        for (auto& e : edges) {
+        for (auto &e : edges) {
             int u = e[0], v = e[1], w = e[2];
             dist[u][v] = w;
             dist[v][u] = w;
         }
 
-        // Floyd-Warshall
         for (int k = 0; k < n; k++) {
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
